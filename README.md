@@ -52,7 +52,7 @@ Using a 2D lattice network representation of a power grid, this simulation inves
 ### Phase Transition Behavior
 - Identified a **critical tolerance**:
   \[
-  \tau_{\text{crit}} \approx 0.42
+  Tau ~ 0.42
   \]
 
 - Regimes:
