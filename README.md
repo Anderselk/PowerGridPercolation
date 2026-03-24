@@ -56,9 +56,9 @@ Using a 2D lattice network representation of a power grid, this simulation inves
   \]
 
 - Regimes:
-  - **Fully Cascaded**: \( \tau < 0.14 \)
-  - **Partial Cascades**: \( 0.14 < \tau < 0.42 \)
-  - **Stable**: \( \tau > 0.42 \)
+  - **Fully Cascaded**: \( Tau < 0.14 \)
+  - **Partial Cascades**: \( 0.14 < Tau < 0.42 \)
+  - **Stable**: \( Tau > 0.42 \)
 
 ### Key Insights
 - Small increases in tolerance dramatically reduce cascade risk
@@ -70,7 +70,7 @@ Using a 2D lattice network representation of a power grid, this simulation inves
 ## Example Visualizations
 
 ### Edge Survival Probability vs Tolerance
-- Sharp transition near \( \tau \approx 0.42 \)
+- Sharp transition near \( Tau \approx 0.42 \)
 
 ### Cascade Size vs Tolerance
 - Rapid drop-off in failures as tolerance increases
