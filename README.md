@@ -70,7 +70,7 @@ Using a 2D lattice network representation of a power grid, this simulation inves
 ## Example Visualizations
 
 ### Edge Survival Probability vs Tolerance
-- Sharp transition near \( Tau \approx 0.42 \)
+- Sharp transition near \( Tau ~ 0.42 \)
 
 ### Cascade Size vs Tolerance
 - Rapid drop-off in failures as tolerance increases
