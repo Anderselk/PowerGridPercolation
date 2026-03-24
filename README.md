@@ -22,17 +22,6 @@ Using a 2D lattice network representation of a power grid, this simulation inves
 - Edges: transmission lines
 - Boundary: non-periodic
 
-### Load & Capacity
-- Initial load:  
-  \( l_0 \sim \mathcal{N}(1, 0.15) \)
-- Capacity:
-  \[
-  C = (1 + \tau) \cdot l_0
-  \]
-- \( \tau \): tolerance parameter (safety margin)
-
----
-
 ## Cascade Algorithm
 
 1. **Initial Failure**
@@ -46,28 +35,6 @@ Using a 2D lattice network representation of a power grid, this simulation inves
 
 4. **Iteration**
    - Repeat until equilibrium
-
----
-
-## Metrics
-
-- **Giant Component Fraction**
-  \[
-  S = \frac{N_{\text{giant}}}{N}
-  \]
-
-- **Cascade Size**  
-  Total number of failed edges
-
-- **Edge Survival Probability**
-  \[
-  p = 1 - \frac{N_{\text{failed}}}{E}
-  \]
-
-- **Cascade Duration**  
-  Number of iterations to equilibrium
-
----
 
 ## Simulation Parameters
 
